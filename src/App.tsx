@@ -52,12 +52,12 @@ function App() {
         </Canvas>
       </div>
 
-      <div className="min-h-screen relative bg-[#111827]">
+      <div className="min-h-screen relative bg-[#0A0A0A]">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:14px_24px]" />
-        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-[#111827] to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-[#0A0A0A] to-transparent" />
         <div className="relative z-10 text-white">
           <div className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
-            <div className="absolute inset-0 bg-gradient-to-r from-purple-500/20 via-indigo-500/20 to-violet-500/20 animate-gradient-x" />
+            <div className="absolute inset-0 bg-gradient-to-r from-white/5 via-gray-500/5 to-white/5 animate-gradient-x" />
 
             <div className="absolute inset-0 overflow-hidden">
               {[...Array(3)].map((_, i) => (
@@ -77,7 +77,7 @@ function App() {
                     ease: "linear",
                   }}
                   style={{
-                    background: `radial-gradient(circle, rgba(139, 92, 246, 0.3) 0%, rgba(0,0,0,0) 70%)`,
+                    background: `radial-gradient(circle, rgba(255, 255, 255, 0.15) 0%, rgba(0,0,0,0) 70%)`,
                     width: "60vw",
                     height: "60vw",
                     left: "20vw",
@@ -100,9 +100,9 @@ function App() {
                   className="mx-auto w-24 h-24 mb-2 relative"
                   whileHover={{ scale: 1.1 }}
                 >
-                  <div className="absolute inset-0 bg-green-500 rounded-full blur-xl opacity-50" />
+                  <div className="absolute inset-0 bg-white/50 rounded-full blur-xl opacity-50" />
                   <div className="relative rounded-full p-4">
-                    <FaQuran className="w-full h-full text-green-500" />
+                    <FaQuran className="w-full h-full text-white" />
                   </div>
                 </motion.div>
 
@@ -115,7 +115,7 @@ function App() {
                       className="relative z-10"
                     >
                       <h1 className="text-6xl md:text-8xl font-bold">
-                        <span className="inline-block bg-clip-text text-transparent bg-gradient-to-r from-amber-400 via-amber-500 to-amber-600">
+                        <span className="inline-block bg-clip-text text-transparent bg-gradient-to-r from-white via-gray-200 to-gray-400">
                           Dua.sh
                         </span>
                       </h1>
@@ -123,7 +123,7 @@ function App() {
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         transition={{ duration: 1, delay: 0.5 }}
-                        className="mt-4 text-xl md:text-2xl font-medium bg-clip-text text-transparent bg-gradient-to-r from-teal-500 to-emerald-600 w-[70%] mx-auto"
+                        className="mt-4 text-xl md:text-2xl font-medium bg-clip-text text-transparent bg-gradient-to-r from-gray-100 to-gray-300 w-[70%] mx-auto"
                       >
                         Dua.sh is not only a Dua generator, but a community of
                         muslims who are looking to expand their spiritual
@@ -137,8 +137,8 @@ function App() {
                       transition={{ duration: 1 }}
                       className="absolute inset-0 -z-10"
                     >
-                      <div className="absolute top-0 left-1/4 w-64 h-64 bg-amber-500 rounded-full mix-blend-multiply filter blur-3xl" />
-                      <div className="absolute top-0 right-1/4 w-64 h-64 bg-teal-500 rounded-full mix-blend-multiply filter blur-3xl" />
+                      <div className="absolute top-0 left-1/4 w-64 h-64 bg-amber-600 rounded-full mix-blend-multiply filter blur-3xl" />
+                      <div className="absolute top-0 right-1/4 w-64 h-64 bg-yellow-500 rounded-full mix-blend-multiply filter blur-3xl" />
                     </motion.div>
                   </div>
 
