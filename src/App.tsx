@@ -1,4 +1,4 @@
-import { motion, useScroll, useTransform } from "framer-motion";
+import { motion } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
 import { FaQuran } from "react-icons/fa";
 import { Canvas, useFrame } from "@react-three/fiber";
@@ -8,7 +8,7 @@ import Navbar from "./components/Navbar";
 function AnimatedStars() {
   const starsRef = useRef<any>(null);
 
-  useFrame((state, delta) => {
+  useFrame((_, delta) => {
     if (starsRef.current) {
       starsRef.current.rotation.x += delta / 10;
       starsRef.current.rotation.y += delta / 15;
