@@ -1,6 +1,6 @@
 # Dua.sh-V2
 
-### This is the second version of Dua.sh, a platform focused on the muslim community. There will be a lot of changes in this version. The roadmap includes some of the features that will be implemented in this version and some that might be left out.
+### This is the second version of Dua.sh, a platform focused on the muslim community. Current version can be found [here](https://dua.sh). There will be a lot of changes in this version. The roadmap includes some of the features that will be implemented in this version and some that might be left out.
 
 - [x] Home
 - [ ] Dua
